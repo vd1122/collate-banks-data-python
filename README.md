@@ -1,4 +1,26 @@
-> Script Run -
+This tool is based on the exercise given at the link -
+https://gist.github.com/Attumm/3927bfab39b32d401dc0a4ca8db995bd
+
+```
+This tool collates accounting data received from different bank. 
+
+The bank's data file could be in different format (e.g. csv, json, xml) with different headers order.
+Also data in the bank's file could be in different format.
+
+This tool is extendable for new banks/file types/data formats.
+```
+
+Below sections cover information about -
+```
+1. Script run
+2. Script output (.data/output-data-files/accounting.csv)
+3. Log output
+4. Tests run
+5. Tests Log Output
+6. Project directory structure
+``` 
+
+> Script Run
 ```
 python accounting.py
 ```
@@ -12,7 +34,7 @@ Bank2,04 Oct 2019,add,2123.50,188,198
 Bank3,05 Oct 2019,remove,5.70,198,182
 Bank3,06 Oct 2019,add,1060.80,188,198
 ```
-> Sameple Log File - 
+> Log Output
 ```
 2021-03-25 01:50:05,315 -            utils.config -    INFO - Config file: /home/vikas/myrepo/python-test/config.ini
 2021-03-25 01:50:05,317 -            utils.config -   DEBUG - Config settings for INPUT:DATA-DIR is data/input-data-files
@@ -40,13 +62,13 @@ Bank3,06 Oct 2019,add,1060.80,188,198
 2021-03-25 01:50:05,339 -      modules.accounting -    INFO - Process over
 ```
 
-> Tests Run -
+> Tests Run
 ```
 cd ./tests
 python run_all_tests.py
 ```
 
-> Tests Log -
+> Tests Log Output
 ```
 ======================================================================
 Executing test script [test_banks_instances.py]
@@ -113,7 +135,7 @@ test_file_readers_factory_exception (__main__.TestFileReadersFactory) ... ok
 Ran 2 tests in 0.001s
 ```
 
-> Directory Structure -
+> Project Directory Structure -
 ```.
 ├── README.md
 ├── accounting.py
