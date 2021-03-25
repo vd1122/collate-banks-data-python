@@ -1,0 +1,7 @@
+Bank,Date,Type,Amount,From,To
+Bank1,01 Oct 2019,remove,99.20,198,182
+Bank1,02 Oct 2019,add,2000.10,188,198
+Bank2,03 Oct 2019,remove,99.40,198,182
+Bank2,04 Oct 2019,add,2123.50,188,198
+Bank3,05 Oct 2019,remove,5.70,198,182
+Bank3,06 Oct 2019,add,1060.80,188,198
