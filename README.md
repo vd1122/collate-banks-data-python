@@ -13,7 +13,7 @@ This tool is extendable for new banks/file types/data formats.
 Below sections cover information about -
 ```
 1. Script run
-2. Script output (.data/output-data-files/accounting.csv)
+2. Script output (./data/output-data-files/accounting.csv)
 3. Log output
 4. Tests run
 5. Tests Log Output
